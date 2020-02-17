@@ -1,0 +1,7 @@
+<h1>Result</h1>
+<div class="results">
+<div>  <%= @result %></div>
+<div>  Word score: <%= @word.length %> </div>
+<div>  Your total score is:<%= cookies[:score] %></div>
+<div> <%= link_to "Play again", new_path  %></div>
+</div>
